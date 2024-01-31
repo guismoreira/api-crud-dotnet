@@ -1,6 +1,10 @@
 @apiCrud_HostAddress = http://localhost:5247
+@apiCrud_Deploy = https://api-crud-dotnet.onrender.com:8080
 
 GET {{apiCrud_HostAddress}}/weatherforecast/
 Accept: application/json
+###
 
+GET {{apiCrud_Deploy}}/weatherforecast/
+Accept: application/json
 ###

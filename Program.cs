@@ -1,4 +1,8 @@
+using apiCrud.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSingleton<UserDbContext>();
 
 // Add services to the container.
 
